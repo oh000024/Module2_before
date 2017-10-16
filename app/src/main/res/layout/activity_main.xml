@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.sriyanksiddhartha.stylesandthemesdemo.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background_selector"
+        android:text="Button One"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button Two"
+        android:textColor="@color/button_color_selector" />
+
+    <TextView
+        style="@style/AppsmallText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Small Text" />
+
+    <TextView
+        style="@style/AppMediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text" />
+
+    <TextView
+        style="@style/AppLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Large Text"
+        android:textSize="18sp" />
+
+    <TextView
+        style="@style/AppExtraLargeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Text" />
+
+    <TextView
+        style="@style/AppExtraLargeTextLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Large Light" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jake Oh"
+
+        android:fontFamily="cursive"
+        android:textColor="#F00"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txvGradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Changseok Oh"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shadow"
+        android:textColor="#616161"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Test"
+        android:shadowColor="#5000"
+        android:textSize="30sp"
+        android:shadowDy="10"
+        android:shadowDx="10"
+        android:shadowRadius="10"/>
+    <CheckBox
+
+        style="@style/AppMediumText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MADD9132 Android"
+        android:textColor="#F00"/>
+
+</LinearLayout>

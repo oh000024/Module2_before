@@ -23,10 +23,22 @@
         android:text="Button Two"
         android:textColor="@color/button_color_selector" />
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="moveToSecondActivity"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="second Activity"
+        android:textSize="20sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:text="Small Text" />
 
     <TextView
@@ -84,15 +96,6 @@
         android:shadowDy="10"
         android:shadowRadius="10"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button Test"
-        android:shadowColor="#5000"
-        android:textSize="30sp"
-        android:shadowDy="10"
-        android:shadowDx="10"
-        android:shadowRadius="10"/>
     <CheckBox
 
         style="@style/AppMediumText"
